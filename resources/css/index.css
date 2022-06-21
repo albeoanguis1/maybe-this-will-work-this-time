@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    left: 120px;
+
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray;
+}
+
+#subtitle{
+    margin-left: 100px;
+}
+
+#mySidenav {
+    margin-top: 200px;
+}
+
+#self {
+    display: block;
+    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#doggie {
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+ul {
+    margin: auto;
+}
+
+ul:hover {
+    color: gray
+}
+
+#profile-home {
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 150px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 220px;
+    background-color: #555 
+  }
+
